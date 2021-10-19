@@ -1,0 +1,31 @@
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+.card-header {
+    width: 200px;
+    height: 200px;
+    background-color:RGB(255, 255, 255);
+  
+   
+}
+.image{
+   width: 100px;
+  margin-left: 100px;
+  margin-bottom: 40;
+ 
+ 
+}
+.photo{
+    margin-left: 50px;
+    width: 80px;
+  
+}
+
+.card-header:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}

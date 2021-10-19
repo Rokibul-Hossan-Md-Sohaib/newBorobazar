@@ -1,0 +1,21 @@
+.cor-success{
+    background-color: RGB(255, 238 , 214);
+}
+.cor-danger{
+    background-color: RGB(217, 236 , 210);
+}
+
+.cor-primary{
+    background-color: RGB(217, 236 , 210);
+}
+.inform {
+    height: 125px;
+    width: 450px;
+  padding-top: 10px;
+    
+  
+}
+
+.info-image{
+   width: 140px;
+}

@@ -1,0 +1,7 @@
+.sidebar{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+   
+    background-color: #fff;
+}
