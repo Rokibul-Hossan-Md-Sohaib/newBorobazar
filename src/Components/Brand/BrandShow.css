@@ -1,0 +1,59 @@
+.photo {
+    width: 60%;
+    height: auto;
+    object-fit: contain; /* Ensures the image is fully visible without distortion */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: #000;
+    margin: 0 10px;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .custom-heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .custom-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .custom-text-left,
+  .custom-text-right {
+    flex: 1;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 20px;
+  }
+  
+  .custom-underline {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+  }
+  
+  .sunglass-heading,
+  .view-glass-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

@@ -6,9 +6,9 @@ import FooterCol from './FooterCol';
 const Footer = () => {
     const noNamed = [
      { name:"Borobazar", link:"/home" },
-     { name:"BreakFast ", link:"/breakfast"},
-     { name:"Lunch", link:"/lunch"},
-     { name:"Dinner", link:"/dinner"},
+     { name:"Men ", link:"/breakfast"},
+     { name:"Women", link:"/lunch"},
+     { name:"Kids", link:"/dinner"},
      { name:"Others", link:"/"},
     ]
 
@@ -26,10 +26,10 @@ const Footer = () => {
     ]
     const services = [
         {name: "HomeDelivery" , link: "/delivary"},
-        {name: "Check Up Food" , link: "/checkup"},
+        {name: "Check Up Glass" , link: "/checkup"},
         {name: "Respect Your Reviews" , link: "/review"},
-        {name: "Any Kind Of Healty Foods" , link: "/food"},
-        {name: "Best Cook" , link: "/checkup"},
+        {name: "Any Kind Of Stylish Glass" , link: "/food"},
+        {name: "Best SunGlass" , link: "/checkup"},
         
     ]
     return (

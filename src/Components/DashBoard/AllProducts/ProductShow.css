@@ -8,7 +8,7 @@
 .card-header {
     width: 200px;
     height: 200px;
-    background-color:RGB(255, 255, 255);
+    /* background-color:RGB(255, 255, 255); */
   
    
 }
@@ -19,9 +19,9 @@
  
  
 }
-.photo{
-    margin-left: 50px;
-    width: 80px;
+.photos{
+    /* margin-left: 50px; */
+    width: 100%;
   
 }
 

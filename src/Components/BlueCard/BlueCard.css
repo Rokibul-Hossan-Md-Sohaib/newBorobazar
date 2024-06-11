@@ -1,0 +1,29 @@
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.blue-card-img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.heading {
+  font-family: 'LKFuturaStd-Medium', 'Bangla921', sans-serif;
+  margin: 0 10px; /* Adjust spacing between lines and heading */
+}
+
+.line {
+  flex-grow: 1;
+  height: 2px; /* Adjust the thickness of the line */
+  background-color: gray; /* Adjust the color of the line */
+}

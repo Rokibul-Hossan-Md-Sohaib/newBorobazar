@@ -1,4 +1,6 @@
 import React from 'react';
+import BlueCard from '../BlueCard/BlueCard';
+import Brand from '../Brand/Brand';
 import Dashboard from '../DashBoard/Dashboard/Dashboard';
 import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
@@ -17,6 +19,8 @@ const Header = () => {
             <Home/>
        <Informations/>
        <Dashboard/>
+       <Brand/>
+       <BlueCard/>
        <Welcome/>
        <Footer/>
         </div>

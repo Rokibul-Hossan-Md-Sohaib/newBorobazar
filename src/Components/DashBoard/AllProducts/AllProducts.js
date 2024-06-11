@@ -1,27 +1,37 @@
 import React from 'react';
 import ProductShow from './ProductShow';
-import imbg from '../../../images/AllProducts/imbg.webp'
+import imbg from '../../../images/AllProducts/imbg.webp';
+import imbg2 from '../../../images/AllProducts/glassim4.png'
 import { items } from './RawProducts';
 
 const AllProducts = () => {
     return (
-        <section className="container ">
-        <div className="row ">
-            <div className="card-deck ">
-                {
-                  items.map(products =><ProductShow products={products}/>)
-                }
-            </div>
-                <div className="container mb-5" >
-                <img style={{width:"98%" ,marginLeft:"14px"}} src={imbg} alt="" />
+        <section className="container " style={{marginBottom: "50px"}}>
+        
+            <div className="row">
+                <div className="card-deck">
+                    {
+                        items.map((product, index) => (
+                            <ProductShow key={index} products={product} />
+                        ))
+                    }
                 </div>
-                <div className="card-deck ">
-                {
-                  items.map(products =><ProductShow products={products}/>)
-                }
+                {/* <div className="container mb-5">
+                    <img
+                        style={{ width: "100%", height: "50%", marginLeft: "14px" }}
+                        src={imbg2}
+                        alt="Product background"
+                    />
+                </div> */}
+                {/* <div className="card-deck">
+                    {
+                        items.map((product, index) => (
+                            <ProductShow key={index} products={product} />
+                        ))
+                    }
+                </div> */}
             </div>
-            </div>
-       </section>
+        </section>
     );
 };
 
